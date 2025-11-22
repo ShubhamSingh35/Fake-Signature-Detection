@@ -46,14 +46,3 @@ flask run
 ```
 
 4. Open the frontend: `http://127.0.0.1:5000/` and upload a signature image.
-
-## Deploying
-
-- Push the repo to GitHub.
-- Deploy frontend to Vercel by connecting the GitHub repo (use `/` root).
-- Deploy backend (Flask) to a Python-friendly host (Render, Railway, Heroku) and set environment variables as needed.
-- Update frontend to point to your deployed backend `/predict` endpoint.
-
----
-
-If you need, I can push this repo to your GitHub (you will need to provide access or do the push locally). I can also provide step-by-step deployment instructions for Render + Vercel.
